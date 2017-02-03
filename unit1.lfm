@@ -1,0 +1,44 @@
+object Form1: TForm1
+  Left = 270
+  Height = 203
+  Top = 168
+  Width = 318
+  Caption = 'RT Remote'
+  ClientHeight = 203
+  ClientWidth = 318
+  LCLVersion = '1.4.4.0'
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 138
+    Width = 144
+    Caption = 'Zjistit ID okna'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 130
+    Top = 0
+    Width = 318
+    Align = alTop
+    ScrollBars = ssAutoVertical
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 160
+    Height = 23
+    Top = 138
+    Width = 152
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 8
+    Height = 25
+    Top = 176
+    Width = 307
+    Caption = 'Zachytavat klavesy'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end
